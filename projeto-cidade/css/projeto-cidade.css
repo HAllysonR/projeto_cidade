@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* formantanado imagens */
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+#primario-praias{
+    width: 600px;
+}
+
+#praias-recife p{
+    padding: 5px;
+    font-size: 0.9em;
+    margin-top: 5px;
+    background: #aec6f3;
+}
+
+#praias-recife img{
+    width: 600px;
+    border: 2px solid #dfdfdf;
+    padding-top: 5px;
+}
+
+#praias-recife h3{
+    background: #b10333;
+    color: #fff;  
+    display: inline;
+    margin-bottom: 20px ;
+
+}
+
+/* formantanado h3 */
+.destaque h3{
+    background: #b10333;
+    color: #fff;  
+    display: inline;
+}
+
+
+
+body{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background: #fcf2f2 url(../imagens-cidade/fundo.png) repeat-x ;
+}
+
+
+#container{
+    width: 800px;
+    margin: 0 auto;
+
+}
+#topo{
+    height: 180px;
+    padding-top: 35px;
+    background: url(../imagens-cidade/detalhe-topo.png) no-repeat right top;
+}
+
+h2{
+    font-size: 1.1em;
+    background: #66a3e4;
+    color: #fff;
+    padding: 5px;
+}
+
+/* FORMATANDO MENU LATERAL*/
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 2px;
+    display: block;
+    line-height: 25px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul{
+    text-align: left;
+    margin-top: 30px;
+    padding-right:10px;
+    background: #b10333;
+    float: left;
+    width: 92%;
+}
+
+#topo ul li{
+    float: left;
+}
+ 
+#topo ul a {
+    font-size: 0.9em;
+    line-height: 2.5em;
+    padding: 0.5em 1.5em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: url(../imagens-cidade/divisor.png)no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+#topo ul a:hover{
+    color:#69001d;
+}
+
+body.home #navegacao a#home,
+body.praias #navegacao a#praias,
+body.marcozero #navegacao a#marcozero,
+body.artistas #navegacao a#artistas,
+body.fotos #navegacao a#fotos{
+    color:#fff;
+    background: #af0508;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 770px;
+}
+
+#lateral{
+    width: 180px;
+    margin:0 0 20px -770px ;
+    float: left;
+}
+#lateral ul a{ 
+    font-size: 0.9em;
+    padding: 5px; 
+    display: block;
+    line-height: 25px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    color: #524c4c;
+    padding-left: 20px;
+    background: #f9f9f9 url(../imagens-cidade/marcador.png) no-repeat left center;
+}
+
+
+
+#primario{
+    width: 280px;
+    margin: 0 0 20px 195px;
+    float: left;
+}
+
+
+#primario p{
+    padding-top: 10px;
+    font-size: 1.0em;
+}
+
+/* #primario a:hover{
+    padding: 5px; 
+    display: block;
+    list-style: none;
+} */
+
+
+#duas-colunas #primario{
+    width: 575px;
+    background: #fff;
+}
+
+#uma-coluna #primario{
+    width: 770px;
+    margin: 0 0 20px 0;
+}
+
+#secundario{
+    width: 280px;  
+    float: left;
+    margin: 0 0 0 15px;
+    
+}
+
+/*FORMATANDO FORMULÁRIOS*/
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding:5px;
+    width: 130px;
+}
+
+input.submit{
+   width: 80px;
+   color: #fff;
+   background-color: #b10333;
+   border: 2px solid #870529; 
+}
+
+
+
+#container-rodape{
+    background: #94b3ee;
+    padding: 20px;
+}
+#rodape{
+   
+    width: 750px;
+    margin: 0 auto;
+    color: #fff; 
+}
+
+/* FORMANTANDO LISTA DE NOTICIAS*/
+#lista-noticias li{
+    padding:2px;
+    margin-bottom:2px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+    width: 90px;
+    clear: both;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    padding: 0;
+    color:#94b3ee;
+    font-size: 0.9em;
+}
+#lista-noticias li a p {
+    font-size: 0.8em;
+}
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+.caixa{
+    background: #f3f3f3 url(../imagens-cidade/fundo-caixa.png);
+    margin:  10px 0;
+    padding: 5px 0 5px 0;
+}
+
+.caixa-conteudo{
+    margin-top: 5px;
+    padding: 5px;
+    background: #fff;
+}
+
+.logo{
+    width: 152px;   
+    height: 66px;
+    background: url(../imagens-cidade/logo.png) no-repeat center;
+    text-indent:-3000px; /* Esconde do usuário este conteudo, mas fica visivel aos navegadores*/
+}
+
+.tamanho p {
+    width:100%;
+    padding: 3px;
+    text-align: center;
+
+
+}
+
+
